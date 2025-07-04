@@ -1,20 +1,19 @@
-
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Users, Zap, TrendingUp, Target, Globe, Shield, Star, ArrowRight, DollarSign, Clock, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 const slides = [
-  { id: 'title', title: 'GigSparkLink', subtitle: 'Connecting Talent with Opportunity' },
+  { id: 'title', title: 'WorkFlow Bot', subtitle: 'Connecting Talent with Opportunity' },
   { id: 'problem', title: 'The Problem', subtitle: 'Challenges in the Freelance Market' },
-  { id: 'solution', title: 'Our Solution', subtitle: 'GigSparkLink Platform' },
+  { id: 'solution', title: 'Our Solution', subtitle: 'WorkFlow Bot Platform' },
   { id: 'features', title: 'Key Features', subtitle: 'What Makes Us Different' },
   { id: 'market', title: 'Market Opportunity', subtitle: 'The Growing Gig Economy' },
   { id: 'business', title: 'Business Model', subtitle: 'Revenue Streams' },
   { id: 'roadmap', title: 'Roadmap', subtitle: 'Future Development' },
   { id: 'team', title: 'Our Team', subtitle: 'Built by Experts' },
   { id: 'financial', title: 'Financial Projections', subtitle: 'Growth Potential' },
-  { id: 'cta', title: 'Join GigSparkLink', subtitle: 'Let\'s Build the Future Together' }
+  { id: 'cta', title: 'Join WorkFlow Bot', subtitle: 'Let\'s Build the Future Together' }
 ];
 
 const Index = () => {
@@ -63,7 +62,7 @@ const Index = () => {
                 <Zap className="w-12 h-12 text-white" />
               </div>
               <h1 className="text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                GigSparkLink
+                WorkFlow Bot
               </h1>
               <p className="text-2xl text-gray-600">Connecting Talent with Opportunity</p>
             </div>
@@ -134,7 +133,7 @@ const Index = () => {
           <div className="space-y-8">
             <div className="text-center space-y-4">
               <h2 className="text-4xl font-bold text-gray-800">Our Solution</h2>
-              <p className="text-xl text-gray-600">GigSparkLink revolutionizes freelance collaboration</p>
+              <p className="text-xl text-gray-600">WorkFlow Bot revolutionizes freelance collaboration</p>
             </div>
             <div className="max-w-4xl mx-auto">
               <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 space-y-6">
@@ -567,14 +566,14 @@ const Index = () => {
           <div className="text-center space-y-8">
             <div className="space-y-4">
               <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Join GigSparkLink
+                Join WorkFlow Bot
               </h2>
               <p className="text-2xl text-gray-600">Let's build the future of freelancing together</p>
             </div>
             <div className="max-w-3xl mx-auto space-y-6">
               <p className="text-lg text-gray-600">
                 Whether you're a talented freelancer looking for your next opportunity or a client seeking the perfect match for your project, 
-                GigSparkLink is here to spark those connections that matter.
+                WorkFlow Bot is here to spark those connections that matter.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card className="p-6 bg-gradient-to-r from-blue-50 to-blue-100 border-blue-200">
@@ -622,7 +621,7 @@ const Index = () => {
             <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
               <Zap className="w-4 h-4 text-white" />
             </div>
-            <span className="text-xl font-bold">GigSparkLink Pitch</span>
+            <span className="text-xl font-bold">WorkFlow Bot Pitch</span>
           </div>
           <div className="text-sm text-gray-500">
             {currentSlide + 1} / {slides.length}
