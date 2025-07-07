@@ -174,7 +174,7 @@ const Index = () => {
           <div className="space-y-8">
             <div className="text-center space-y-4">
               <h2 className="text-4xl font-bold text-gray-800">Key Features</h2>
-              <p className="text-xl text-gray-600">What makes GigSparkLink the best choice</p>
+              <p className="text-xl text-gray-600">What makes WorkFlow-Bot the best choice</p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Card className="p-6 hover:shadow-lg transition-shadow">
@@ -245,15 +245,15 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="p-8 text-center bg-gradient-to-br from-blue-50 to-blue-100">
                 <CardContent className="p-0 space-y-4">
-                  <div className="text-4xl font-bold text-blue-600">$400B+</div>
+                  <div className="text-4xl font-bold text-blue-600">$40M+</div>
                   <h3 className="text-xl font-semibold">Global Gig Economy</h3>
-                  <p className="text-gray-600">Expected to reach $400B+ by 2025</p>
+                  <p className="text-gray-600">Expected to reach $40M+ by 2026</p>
                 </CardContent>
               </Card>
               <Card className="p-8 text-center bg-gradient-to-br from-green-50 to-green-100">
                 <CardContent className="p-0 space-y-4">
-                  <div className="text-4xl font-bold text-green-600">57M</div>
-                  <h3 className="text-xl font-semibold">US Freelancers</h3>
+                  <div className="text-4xl font-bold text-green-600">5.7M</div>
+                  <h3 className="text-xl font-semibold">Global Freelancers</h3>
                   <p className="text-gray-600">Growing by 15% annually</p>
                 </CardContent>
               </Card>
@@ -366,7 +366,7 @@ const Index = () => {
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="text-xl font-semibold text-green-700">Phase 1: MVP Launch</h3>
-                      <p className="text-green-600">Q1 2024 - Core platform features</p>
+                      <p className="text-green-600">Q1 2025 - Core platform features</p>
                     </div>
                     <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center">
                       <span className="text-white font-bold">✓</span>
@@ -379,7 +379,7 @@ const Index = () => {
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="text-xl font-semibold text-blue-700">Phase 2: AI Integration</h3>
-                      <p className="text-blue-600">Q2 2024 - Smart matching algorithms</p>
+                      <p className="text-blue-600">Q2 2025 - Smart matching algorithms</p>
                     </div>
                     <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center">
                       <Zap className="w-8 h-8 text-white" />
@@ -392,7 +392,7 @@ const Index = () => {
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="text-xl font-semibold text-purple-700">Phase 3: Mobile App</h3>
-                      <p className="text-purple-600">Q3 2024 - iOS and Android applications</p>
+                      <p className="text-purple-600">Q3 2025 - iOS and Android applications</p>
                     </div>
                     <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center">
                       <Globe className="w-8 h-8 text-white" />
@@ -405,7 +405,7 @@ const Index = () => {
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="text-xl font-semibold text-orange-700">Phase 4: Global Expansion</h3>
-                      <p className="text-orange-600">Q4 2024 - International markets</p>
+                      <p className="text-orange-600">Q4 2025 - International markets</p>
                     </div>
                     <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center">
                       <TrendingUp className="w-8 h-8 text-white" />
@@ -422,7 +422,7 @@ const Index = () => {
           <div className="space-y-8">
             <div className="text-center space-y-4">
               <h2 className="text-4xl font-bold text-gray-800">Our Team</h2>
-              <p className="text-xl text-gray-600">Built by industry experts</p>
+              <p className="text-xl text-gray-600">Built by a IT graduate </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="p-6 text-center">
@@ -431,8 +431,8 @@ const Index = () => {
                     <Users className="w-10 h-10 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold">Tech Leadership</h3>
-                    <p className="text-gray-600">Ex-Google, Meta engineers</p>
+                    <h3 className="text-xl font-semibold">Tech Lead</h3>
+                    <p className="text-gray-600">Nercia Motsepe</p>
                   </div>
                 </CardContent>
               </Card>
@@ -443,7 +443,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">Business Strategy</h3>
-                    <p className="text-gray-600">Former startup founders</p>
+                    <p className="text-gray-600"> - </p>
                   </div>
                 </CardContent>
               </Card>
@@ -454,23 +454,23 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">Product Design</h3>
-                    <p className="text-gray-600">Award-winning UX designers</p>
+                    <p className="text-gray-600">Lovable</p>
                   </div>
                 </CardContent>
               </Card>
             </div>
             <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 text-center">
-              <h3 className="text-2xl font-bold mb-4">Advisors & Investors</h3>
+              <h3 className="text-2xl font-bold mb-4">Advisors</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <Shield className="w-8 h-8 text-blue-600 mx-auto" />
                   <h4 className="font-semibold">Industry Veterans</h4>
-                  <p className="text-gray-600">Former executives from Upwork, Fiverr, and LinkedIn</p>
+                  <p className="text-gray-600">PLP instructors</p>
                 </div>
                 <div className="space-y-2">
                   <Award className="w-8 h-8 text-green-600 mx-auto" />
-                  <h4 className="font-semibold">Strategic Partners</h4>
-                  <p className="text-gray-600">Leading VCs and angel investors backing our vision</p>
+                  <h4 className="font-semibold">Deployment</h4>
+                  <p className="text-gray-600">Netlify</p>
                 </div>
               </div>
             </div>
@@ -488,25 +488,25 @@ const Index = () => {
               <Card className="p-6 text-center bg-gradient-to-br from-blue-50 to-blue-100">
                 <CardContent className="p-0 space-y-4">
                   <div className="text-sm text-blue-600 font-semibold">Year 1</div>
-                  <div className="text-3xl font-bold text-blue-700">$500K</div>
+                  <div className="text-3xl font-bold text-blue-700">$50K</div>
                   <div className="text-gray-600">Revenue Target</div>
-                  <div className="text-sm text-gray-500">10K active users</div>
+                  <div className="text-sm text-gray-500">7K active users</div>
                 </CardContent>
               </Card>
               <Card className="p-6 text-center bg-gradient-to-br from-green-50 to-green-100">
                 <CardContent className="p-0 space-y-4">
                   <div className="text-sm text-green-600 font-semibold">Year 2</div>
-                  <div className="text-3xl font-bold text-green-700">$2.5M</div>
+                  <div className="text-3xl font-bold text-green-700">$250K</div>
                   <div className="text-gray-600">Revenue Target</div>
-                  <div className="text-sm text-gray-500">50K active users</div>
+                  <div className="text-sm text-gray-500">30K active users</div>
                 </CardContent>
               </Card>
               <Card className="p-6 text-center bg-gradient-to-br from-purple-50 to-purple-100">
                 <CardContent className="p-0 space-y-4">
                   <div className="text-sm text-purple-600 font-semibold">Year 3</div>
-                  <div className="text-3xl font-bold text-purple-700">$10M</div>
+                  <div className="text-3xl font-bold text-purple-700">$1M</div>
                   <div className="text-gray-600">Revenue Target</div>
-                  <div className="text-sm text-gray-500">200K active users</div>
+                  <div className="text-sm text-gray-500">130K active users</div>
                 </CardContent>
               </Card>
             </div>
@@ -544,7 +544,7 @@ const Index = () => {
                     </div>
                     <div className="flex justify-between">
                       <span>Series A (Planned)</span>
-                      <span className="font-semibold">$5M</span>
+                      <span className="font-semibold">$3M</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Use of Funds</span>
